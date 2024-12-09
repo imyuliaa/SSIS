@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="NB-YULIA.SalaryPayment_DW.sa"
+  DTS:DTSID="{5201CBFC-A3EC-41E5-8B9E-C9AC972FD2F0}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=NB-YULIA;User ID=sa;Initial Catalog=SalaryPayment_DW;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Test_SSIS-{5201CBFC-A3EC-41E5-8B9E-C9AC972FD2F0}NB-YULIA.SalaryPayment_DW.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyRLj2AUB8EiaUL34VN6acQAAAAACAAAAAAAQZgAAAAEAACAAAACCWcsP/lyl7XoXfIyBa1wWWQXvAGNQip/nakL4QIi+eAAAAAAOgAAAAAIAACAAAADrsB5ENBM7ylveDKoKSKCfW7UsbKW9652ytJL36ERFLoAAAAAlsaC789WJQrDz8wcAt3mGseAnHHmudKIGZPn2yFBHRo1Esou+d7NutAArOaj6AWM5v9CM3dJCWpHpwl8tnHxO0G0zkiAY4nU+DrSOh/1YUHEn5cslky7WI7DrS0PozzdUB1Lb3Y8m61IYVV0yv1/RPtZhzIqA6jpUNyMocZUsPUAAAAD92W1fGtJ5uOqtvRsWscgdfLMqZZhtMjjr2HkL1jrvcChXF+xycMgog1FatQAol9bizKUnDBR5kCyDTRKdJb9B</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
